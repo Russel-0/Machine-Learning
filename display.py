@@ -1,10 +1,14 @@
-secret_word = "python"
-counter = 2
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+op = input("Enter operator: ")
 
-while True:
-    word = input("Enter the secret word: ").lower()
-    counter = counter + 1
-    if word == secret_word:
-        break
-    if word != secret_word and counter > 7: 
-        break
+if op == "+":
+    print("Sum: " + str(n1 + n2))
+elif op == "-":
+    print("Difference: " + str(n1 - n2))
+elif op == "*":
+    print("Difference: " + str(n1 * n2))
+elif op == "/":
+    print("Difference: " + str(n1 / n2))
+else:
+    print("INVALID OPERATOR")
