@@ -14,6 +14,7 @@ import math
 # print(pow(number, 2))
 
 #   index and slicing
+#name = "Russel Calderon"
 
 string = "bo8712-GetThisWord-ashjdb"
 
