@@ -1,12 +1,5 @@
 import math
 
-list = []
+list_number = [1,2,2,3,4,3]
 
-list_length = 5
-
-for asd in range(list_length):
-    numbers = input("enter numbers: ")
-
-    list.append(numbers)
-
-print(list)
+print(max(list_number))
