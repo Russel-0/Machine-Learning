@@ -17,6 +17,7 @@ import math
 #name = "Russel Calderon"
 
 string = "bo8712-GetThisWord-ashjdb"
+string2 = "bo8712-GetThisWordUsingSlice-ashjdb"
 
 # first = name[0:6]
 # last = name[7:]
@@ -25,3 +26,4 @@ string = "bo8712-GetThisWord-ashjdb"
 slice = slice(7,-7)
 
 print(string[slice])
+print(string2[slice])
