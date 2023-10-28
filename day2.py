@@ -20,5 +20,3 @@ import time
 for seconds in range(10,0,-1):
     print(seconds)
     time.sleep(0.5)
-
-print("BOOM!")
