@@ -21,6 +21,6 @@ for i in range(nY):
 plt.title("plotting")
 plt.xlabel("asd")
 plt.ylabel("zxc")
-
-plt.scatter(x, y)
+plt.bar(x, y)
+plt.grid()
 plt.show()
